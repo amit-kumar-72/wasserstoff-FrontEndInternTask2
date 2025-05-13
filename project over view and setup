@@ -1,0 +1,33 @@
+# Real-Time Collaborative Text Editor
+
+This project is a real-time collaborative text editor built using **React**, **Tiptap**, **Yjs**, and **WebRTC**. It allows multiple users to edit the same document simultaneously, with user attribution and real-time synchronization.
+
+## Features
+
+- **Real-Time Collaboration**: Users can edit text simultaneously with others in real-time.
+- **User Attribution**: Each user's edits are color-coded and displayed with their name.
+- **WebRTC Integration**: Uses **Yjs** and **WebRTC** for real-time data syncing across users.
+
+## Tech Stack
+
+- **React**: Frontend library for building the UI.
+- **Tiptap**: A rich-text editor framework.
+- **Yjs**: Framework for real-time collaboration.
+- **WebRTC**: Peer-to-peer communication protocol for real-time synchronization.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
+   
+Navigate to the project directory:
+cd texteditor
+
+Install the dependencies: npm install
+npm run dev
+
+
+
