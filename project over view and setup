@@ -1,1 +1,34 @@
+# React Component Library
 
+This is a **React Component Library** that provides reusable, customizable components for building modern web applications. It includes components like buttons, input fields, cards, and more, all styled with **Tailwind CSS**.
+
+## Features
+
+- **Reusable Components**: Includes a variety of customizable UI components for fast development.
+- **Tailwind CSS Styling**: All components are styled with Tailwind CSS for flexibility and easy customization.
+- **Easy to Use**: Simple and easy-to-use components with clear prop management and default styling.
+- **Responsive Design**: Components are designed to be responsive, ensuring good user experience on different devices.
+
+## Components
+
+This library currently includes the following components:
+
+- **Button**: A customizable button component.
+- **Card**: A component for displaying user cards.
+- **Input**: An input field component for forms.
+- **Avatar**: A customizable avatar component for user images.
+
+## Installation
+
+You can easily integrate this library into your project by installing it via npm.
+
+1. **Install the Library**:
+
+   Run the following command in your project directory:
+
+   ```bash
+   npm install <repository-url>
+
+cd task02
+npm install
+npm run dev
