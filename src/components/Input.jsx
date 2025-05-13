@@ -1,4 +1,4 @@
-// src/components/Input.js
+
 import PropTypes from 'prop-types';
 
 const Input = ({ value, onChange, placeholder, type = 'text', name }) => {

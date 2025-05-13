@@ -1,4 +1,4 @@
-// src/components/Button.js
+
 import PropTypes from 'prop-types';
 
 const Button = ({ label, onClick, variant = 'primary' }) => {

@@ -1,4 +1,4 @@
-// src/components/Card.js
+
 import PropTypes from 'prop-types';
 
 const Card = ({ name, email, avatar }) => {
