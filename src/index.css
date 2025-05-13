@@ -1,0 +1,70 @@
+/* src/index.css */
+@import "tailwindcss"; /* Import TailwindCSS */
+
+/* Custom styles */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded font-semibold transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-[#8e0028] text-white hover:bg-[#750021];
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-black hover:bg-gray-300;
+  }
+
+  .input {
+    @apply border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-[#8e0028];
+  }
+
+  .user-card {
+    @apply flex items-center gap-4 p-4 bg-[#001f3f] rounded-2xl shadow border border-gray-200 max-w-sm mx-auto; /* Small card and similar bg as login */
+  }
+
+  .user-avatar {
+    @apply w-16 h-16 rounded-full;
+  }
+
+  .card-title {
+    @apply text-xl font-bold text-[#8e0028];
+  }
+
+  .card-body {
+    @apply mt-2 text-gray-600;
+  }
+
+  .login-wrapper {
+    @apply min-h-screen flex items-center justify-center bg-gray-100;
+  }
+
+  .login-dark {
+    @apply bg-[#001f3f] text-white rounded-2xl p-6 shadow space-y-4;
+  }
+
+  .avatar-preview {
+    @apply w-20 h-20 rounded-full object-cover mx-auto mb-4;
+  }
+
+  .form-error {
+    @apply text-red-500 text-sm mb-2;
+  }
+
+  .login-btn-wrap {
+    @apply flex justify-center pt-4;
+  }
+
+  /* Additional user-list styling */
+  .user-list-wrapper {
+    @apply min-h-screen bg-gray-50 p-6;
+  }
+
+  .user-grid {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-4;
+  }
+
+  .heading {
+    @apply text-3xl font-bold text-[#8e0028] mb-6;
+  }
+}
